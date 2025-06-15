@@ -43,7 +43,7 @@ class CalculatorApp:
                 btn.grid(row=r+1, column=c)
 
     def on_button_click(self, char):
-        if char == '=' and self.first_result:
+        if char == '=':
             result = self.calc.evaluate(self.expression)
             self.result_text.set(result)
             self.expression = ""
