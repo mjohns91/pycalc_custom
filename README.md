@@ -1,2 +1,2 @@
 # pycalc_custom
-Implementation of basic calaculator written in Python.
+Implementation of basic calculator written in Python.
