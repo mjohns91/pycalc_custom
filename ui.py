@@ -26,7 +26,7 @@ class CalculatorApp:
         result_field = tk.Entry(result_frame, textvariable=self.result_text, font=("arial", 20), justify='right')
         result_field.grid(row=0, column=0, columnspan=4)
 
-        input_field = tk.Entry(input_frame, textvariable=self.input_text, font=('arial', 18), bd=5, justify='right')
+        input_field = tk.Entry(input_frame, textvariable=self.input_text, font=('arial', 18), bd=3, justify='right')
         input_field.grid(row=0, column=0, columnspan=4)
 
         buttons = [
